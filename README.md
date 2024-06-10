@@ -50,6 +50,11 @@ $ composer install
 # Create .env and update
 $ cp .env.example .env
 
+# generate app key
+$ php artisan key:generate
+
+# serve application
+$ php artisan serve
 ```
 
 ## :memo: License ##
